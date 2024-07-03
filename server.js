@@ -18,11 +18,11 @@ const PORT = process.env.PORT || 3003;
 // MySQL Connection
 const db = mysql.createConnection({
   // connectionLimit: 10,
-  host: '192.168.0.161',
+  host: '192.168.0.166',
   // host: 'localhost',
   user: 'root',
   password: 'root@123',
-  database: 'invent'
+  database: 'inventory'
 });
 
 db.connect((err) => {
