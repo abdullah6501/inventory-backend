@@ -20,7 +20,7 @@ const db = mysql.createConnection({
   // connectionLimit: 10,
   host: '192.168.0.166',
   // host: 'localhost',
-  user: 'root',
+  user: 'inventory',
   password: 'root@123',
   database: 'inventory'
 });
